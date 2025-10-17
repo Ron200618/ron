@@ -1,3 +1,5 @@
+cd /var/www/source/
+
 git add .
-git commit -m “commiti sõnum”
+git commit -m “$(date)”
 git push -u origin main.
